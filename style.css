@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: lightgrey; */
+}
+.navbar{
+      background-image: url('./assets/background.png');
+      background-size: cover;
+      height: 90vh;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    margin: 5px 20px;
+    color: white;
+    display: flex;
+}
+.logo img{
+    height: 100px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    list-style: none;
+    margin: 0.3px;
+    height: 80px;
+    width: 150px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-container img{
+    height: 20px;
+    width: 20px;
+    
+}
+
+.menu-container span{
+    color: white;
+    margin-top: -10px;
+}
+
+#title{
+    color: white;
+    font-size: 6rem;
+    width: 700px;
+    margin: 12vh 0 12vh 10vw;
+}
+
+.president{
+    display: flex;
+    margin-top: 10vh;
+}
+
+.PD{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 45vh;
+    width: 50vw;
+}
+
+.PD2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 45vh;
+    width: 50vw;
+}
+
+.PD h1{
+    color: black;
+    font-size: 3rem;
+}
+
+.PD p{
+    font-size: 20px;
+}
+
+.Plink{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+}
+
+.Plink p{
+    font-size: 1.3rem;
+    font-weight: 550;
+    padding: 15px 5px 0;
+}
+
+.Plink img{
+    height: 30px;
+    background-color: gray;
+    border-radius: 50%;
+    margin-top: 10px;
+    padding: 7px;
+}
+
+.Plink img:hover{
+    background-color: black;
+}
+
+.PI{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+}
+
+.PI img{
+    width: 40vw;
+}
+
+#deans{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 5vw;
+}
+
+.dean{
+    height: 80vh;
+    width: 400px;
+    background-color: lightgray;
+    margin: 30px 0;
+}
+
+.dean img{
+    width: 400px;
+}
+
+.dean h1{
+    font-weight: 500;
+    font-size: 2rem;
+    margin-left: 30px;
+    margin-top: 5vh;
+}
+
+.dean p{
+    margin-top: 1vh;
+    margin-left: 30px;
+}
+
+.dlink{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+    width: 300px;
+    margin-left: 30px;
+}
+
+.dlink img{
+    height: 25px;
+    width: 25px;
+    background-color: gray;
+    border-radius: 50%;
+    padding: 7px;
+}
+
+.dlink img:hover{
+    background-color: black;
+}
+
+.dlink p{
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-left: 5px;
+}
+
+.dlink p:hover{
+    text-decoration: underline;
+}
+
+.deans{
+    font-size: 5rem;
+    margin-top: 10vh;
+    font-weight: 500;
+    margin-left: 8vw;
+}
+
+hr{
+    margin: 5vh 8vw;
+    color: black;
+    border: 3px solid black;
+    font-weight: 800;
+}
+
+#wisep{
+    display: flex;
+}
+
+#wisepf{
+    margin-left: 8vw;
+    width: 30vw;
+}
+
+#wiseps{
+    margin-right: 8vw;
+    margin-left: 15vw;
+    width: 30vw;
+}
+
+
+#wisepf div{
+    margin-top: 4vh;
+}
+
+#wiseps div{
+    margin-top: 4vh;
+}
+
+#wisepf div h5{
+    font-size: 1.5rem;
+}
+
+#wiseps div h5{
+    font-size: 1.5rem;
+}
+
+#wisepf div p{
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
+#wiseps div p{
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
